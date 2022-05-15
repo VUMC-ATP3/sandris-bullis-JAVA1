@@ -14,7 +14,7 @@ public class MainTwo {
 
         System.out.println(teikums);
 
-        
+
 
 
     }
