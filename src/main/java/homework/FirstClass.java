@@ -128,7 +128,7 @@ public class FirstClass {
         summa = a + b + c + d;
         starpiba = (a+b) - (a-b);
         reizinajums = (a+b) * (a-b);
-        dalijums = (a+b) - (a-b);
+        dalijums = (a+b) / (e+a);
 
         System.out.println("SUMMA3: " + summa);
         System.out.println("STARPĪBA3: " + starpiba);
