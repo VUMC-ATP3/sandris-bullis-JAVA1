@@ -57,6 +57,7 @@ public class Main {
         System.out.println();
 
         // (mainīgā tips) (mainīgā nosaukusms) = (vērtība);
+
         byte menesiGada = 12;
         int gadaApgrozijums = 2147483647;
         long gadaApgrozijumsDolaros = 2147483699L;
@@ -92,6 +93,8 @@ public class Main {
         System.out.println("Reizinajums " + reizinajums);
         System.out.println("Dalijums " + dalijums);
         System.out.println("Atlikums " + atlikums);
+
+
 
 
 
