@@ -7,18 +7,24 @@ public class HomeWorkTwo {
     }
 
     public static void main(String[] args) {
+        System.out.println("5.Uzdevums.");
         printBusinessCard();
         printBusinessCard();
         printBusinessCard();
+        System.out.println("6.Uzdevums.");
         printBusinessCardTwo("Līga", "Kalniņa", "+371 12312312", 1965);
         printBusinessCardTwo("Juris", "Vītols", "+371 32132132", 1930);
-        sum(4, 10);
+        System.out.println("7.Uzdevums.");
         int summa = sum(4, 10);
         System.out.println(summa);
+        System.out.println("8.Uzdevums.");
         average(10.0, 2.0, 4.0);
         System.out.println(average(10.0, 2.0, 4.0));
         Scanner scanner = new Scanner(System.in);
+
+
         System.out.println("1.uzdevums.");
+
         int x = 1;
         int y = 7;
         int z = 4;
@@ -28,7 +34,10 @@ public class HomeWorkTwo {
         System.out.println(z <= 5 && z < 10);
         System.out.println(x == 0 && x == 10);
         System.out.println(y * y > 10);
+
+
         System.out.println("2.uzdevums.");
+
         System.out.println("Ievadi mēneša skaitli..");
         int menesis = scanner.nextInt();
         String menesaVards;
@@ -74,7 +83,10 @@ public class HomeWorkTwo {
         }
 
         System.out.println(menesaVards);
+
+
         System.out.println("3.uzdevums.");
+
         System.out.println("Ievadi pirmo skaitli.");
         int a = scanner.nextInt();
         System.out.println("Ievadi otro skaitli.");
@@ -91,7 +103,9 @@ public class HomeWorkTwo {
             System.out.println("Lielākais skaitlis ir: " + c);
         }
 
+
         System.out.println("4.uzdevums.");
+
         System.out.println("Luksofors - Sarkans, Dzltens, Zaļš?");
         String krasa = "Zaļš";
         if (krasa.equals("Zaļš")) {
@@ -111,12 +125,18 @@ public class HomeWorkTwo {
         String uzvards = "Bērziņš";
         String telefonanr = "+371 12345678";
         int dzimsanasgads = 1990;
+
+
+
         System.out.println("Vizītkarte");
         System.out.println("##########");
         System.out.println("Vārds: " + vards + "\nUzvārds: " + uzvards + "\nTelefona numurs: " + telefonanr + "\nDzimšanas gads: " + dzimsanasgads + "\n##########");
     }
 
     static void printBusinessCardTwo(String name, String surname, String telephone, int dateOfBirth) {
+
+
+
         System.out.println(" Vizītkarte \n ##########");
         System.out.println(String.format(" Vārds: %s \n Uzvārds: %s \n Telefona numurs: %s \n Dzimšanas gads: %s", name, surname, telephone, dateOfBirth));
         System.out.println(" ##########");
