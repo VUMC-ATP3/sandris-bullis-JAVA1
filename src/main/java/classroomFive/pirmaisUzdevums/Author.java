@@ -1,10 +1,9 @@
 package classroomFive.pirmaisUzdevums;
 
 public class Author {
-    String name;
-    String email;
-    char gender;
-
+    public String name;
+    public String email;
+    public char gender;
 
     public Author(String name, String email, char gender) {
         this.name = name;
@@ -14,10 +13,10 @@ public class Author {
 
     @Override
     public String toString() {
-        return "Author{" +
-                "name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", gender=" + gender +
+        return "Autors{" +
+                "Vārds='" + name + '\'' +
+                ", Epasts='" + email + '\'' +
+                ", Dzimums=" + gender +
                 '}';
     }
 }

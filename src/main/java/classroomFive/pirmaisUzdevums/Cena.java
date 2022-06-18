@@ -11,14 +11,11 @@ public class Cena {
 
     @Override
     public String toString() {
-        return "Cena{" +
-                "amount=" + amount +
-                ", currency=" + currency +
-                '}';
-    }
-    public void discount(int discount){
-        amount = amount - (amount *(discount/100));
+        return "Cena: " + amount + currency;
     }
 
+    public void discount(double discount) {
+        amount = amount - (amount * (discount / 100));
+    }
 }
 
