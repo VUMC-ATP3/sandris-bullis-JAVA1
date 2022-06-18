@@ -2,6 +2,7 @@ package homework.classHomework;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("#### Pirmais strīsstūris ####");
         Trissturis pirmais = new Trissturis();
         pirmais.malaA = 5;
         pirmais.malaB = 6;
@@ -10,11 +11,9 @@ public class Main {
         System.out.println(pirmais.laukums);
         System.out.println(pirmais.vaiVienadMalu());
         System.out.println(pirmais.vaiVienadSanu());
-
         System.out.println(pirmais.kadsTrissturisViens());
 
-
-
+        System.out.println("#### Otrais strīsstūris ####");
         TrissturisDivi otrais = new TrissturisDivi();
         otrais.laukums = otrais.TrissturaLaukumaAprekins();
         System.out.println(otrais.laukums);

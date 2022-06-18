@@ -6,8 +6,6 @@ public class Trissturis {
     int malaC;
     double laukums;
     double pusPerimetrs;
-    boolean irVienadMalu;
-    boolean irVienadSanu;
 
 
     Trissturis() {
@@ -22,9 +20,8 @@ public class Trissturis {
 
     public boolean vaiVienadMalu() {
         System.out.println("Vai Trīsstūris ir vienādmalu?");
-        irVienadMalu = true;
         if (malaA == malaB && malaB == malaC) {
-            return (irVienadMalu);
+            return true;
         } else {
             return (false);
         }
@@ -32,9 +29,8 @@ public class Trissturis {
 
     public boolean vaiVienadSanu() {
         System.out.println("Vai Trīsstūris ir vienādsānu.");
-        irVienadSanu = true;
         if (malaA == malaB || malaA == malaC || malaB == malaC) {
-            return (irVienadSanu);
+            return true;
         } else {
             return (false);
         }

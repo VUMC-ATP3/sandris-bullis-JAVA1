@@ -3,8 +3,8 @@ package homework.classHomework;
 public class TrissturisDivi {
 
     int malaA = 5;
-    int malaB = 6;
-    int malaC = 7;
+    int malaB = 5;
+    int malaC = 5;
     double laukums;
     double pusPerimetrs;
 
