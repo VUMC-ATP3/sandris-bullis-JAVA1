@@ -1,19 +1,18 @@
 package homework.oop_homeWork;
 
 public class Customer {
-    String name;
-    boolean member = false;
-    String memberType;
+    private String name;
+    private boolean member = false;
+    private String memberType;
 
-    public Customer(String name, boolean member, String memberType) {
+    public Customer(String name) {
         this.name = name;
-        this.member = member;
-        this.memberType = memberType;
     }
 
     public boolean isMember() {
         return member;
     }
+
 
     public void setMember(boolean member) {
         this.member = member;
