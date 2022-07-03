@@ -22,7 +22,6 @@ public class HomeWorkTwo {
         System.out.println(average(10.0, 2.0, 4.0));
         Scanner scanner = new Scanner(System.in);
 
-
         System.out.println("1.uzdevums.");
 
         int x = 1;
@@ -34,7 +33,6 @@ public class HomeWorkTwo {
         System.out.println(z <= 5 && z < 10);
         System.out.println(x == 0 && x == 10);
         System.out.println(y * y > 10);
-
 
         System.out.println("2.uzdevums.");
 
@@ -84,7 +82,6 @@ public class HomeWorkTwo {
 
         System.out.println(menesaVards);
 
-
         System.out.println("3.uzdevums.");
 
         System.out.println("Ievadi pirmo skaitli.");
@@ -103,7 +100,6 @@ public class HomeWorkTwo {
             System.out.println("Lielākais skaitlis ir: " + c);
         }
 
-
         System.out.println("4.uzdevums.");
 
         System.out.println("Luksofors - Sarkans, Dzltens, Zaļš?");
@@ -119,14 +115,11 @@ public class HomeWorkTwo {
         }
 
     }
-
     static void printBusinessCard() {
         String vards = "Jānis";
         String uzvards = "Bērziņš";
         String telefonanr = "+371 12345678";
         int dzimsanasgads = 1990;
-
-
 
         System.out.println("Vizītkarte");
         System.out.println("##########");
@@ -135,20 +128,15 @@ public class HomeWorkTwo {
 
     static void printBusinessCardTwo(String name, String surname, String telephone, int dateOfBirth) {
 
-
-
         System.out.println(" Vizītkarte \n ##########");
         System.out.println(String.format(" Vārds: %s \n Uzvārds: %s \n Telefona numurs: %s \n Dzimšanas gads: %s", name, surname, telephone, dateOfBirth));
         System.out.println(" ##########");
     }
 
     static int sum(int a, int b) {
-        int summa = a + b;
-        return summa;
+        return a +b;
     }
-
     static double average(double a, double b, double c) {
-        double average = (a + b + c) / 3.0;
-        return average;
+        return (a + b + c) / 3.0;
     }
 }
